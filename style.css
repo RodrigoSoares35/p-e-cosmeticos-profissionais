@@ -19,8 +19,8 @@ body {
       justify-content: center;
       align-items: center;
       color:#F5AD18;
-      text-shadow: 0 2px 6px rgba(0,0,0,2.4);
-      font-size: 2rem;
+      text-shadow: 0 2px 6px rgba(0,0,1,2.8);
+      font-size: 1rem;
     }
     .p {
          margin-top: 10px;
@@ -29,13 +29,14 @@ body {
       justify-content: center;
       align-items: center;
       color:#F5AD18;
-      text-shadow: 0 3px 6px rgba(0,0,0,2.4);
-      font-size: 2rem;
+      text-shadow: 0 3px 6px rgba(0,0,1,2.8);
+      font-size: 1rem;
       font-weight: bold;
     }
 
     /* Seção de produtos */
    #produtos {
+     
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -44,13 +45,14 @@ body {
     }
 
     .card {
+      text-align: center; /* Centraliza tudo dentro do card */
       width: 390px;
       border: none;
       border-radius: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       background: #fff;
       text-align: center;
-      padding: 15px;
+      padding: 10px;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
@@ -60,8 +62,9 @@ body {
     }
 
     .card img {
-      
-      width: 50%;
+     display: block; /* remove o pequeno espaço abaixo da imagem */
+      margin: 0 auto;
+      width: 55%;
       height: 200px;
       object-fit: cover;  /* ajusta a imagem sem distorcer */
       border-radius: 10px;
@@ -83,7 +86,7 @@ body {
       display: inline-block;
       background-color: #FFC400;
       color: black;
-      padding: 10px 20px;
+      padding: 6px 14px;
       border-radius: 25px;
       text-decoration: none;
       font-weight: bold;
@@ -94,25 +97,7 @@ body {
       background-color: green;
     }
 
-    /* Seção Sobre */
-    .sobre {
-      background: #ffe4ec;
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    .sobre h2 {
-      color: #ad1457;
-      margin-bottom: 15px;
-    }
-
-    .sobre p {
-      max-width: 700px;
-      margin: 0 auto;
-      line-height: 1.6;
-      font-size: 1.1rem;
-    }
-
+    
     /* Rodapé */
     footer {
       background: #F5AD18;
