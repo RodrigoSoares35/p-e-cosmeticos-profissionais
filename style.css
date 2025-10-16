@@ -14,7 +14,6 @@ body {
     /* Banner */
     .banner {
       margin-top: 90px;
-      background: url('https://i.imgur.com/LTn1NZM.jpg') center/cover no-repeat;
       height: 100px;
       display: flex;
       justify-content: center;
@@ -25,7 +24,6 @@ body {
     }
     .p {
          margin-top: 10px;
-          background: url('https://i.imgur.com/LTn1NZM.jpg') center/cover no-repeat;
       height: 70px;
       display: flex;
       justify-content: center;
