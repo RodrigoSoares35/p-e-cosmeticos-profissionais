@@ -1,0 +1,159 @@
+body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #FFECC0;
+      color: #444;
+      scroll-behavior: smooth;
+    }
+
+    .cabecalho {
+  position: sticky; /* Fixa o cabeçalho no topo */
+}
+
+
+    /* Banner */
+    .banner {
+      margin-top: 90px;
+      background: url('https://i.imgur.com/LTn1NZM.jpg') center/cover no-repeat;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#F5AD18;
+      text-shadow: 0 2px 6px rgba(0,0,0,2.4);
+      font-size: 2rem;
+    }
+    .p {
+         margin-top: 10px;
+          background: url('https://i.imgur.com/LTn1NZM.jpg') center/cover no-repeat;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#F5AD18;
+      text-shadow: 0 3px 6px rgba(0,0,0,2.4);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    /* Seção de produtos */
+   #produtos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 30px 20px;
+    }
+
+    .card {
+      width: 450px;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      background: #fff;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      
+      width: 55%;
+      height: 210px;
+      object-fit: cover;  /* ajusta a imagem sem distorcer */
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 1.3rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .botao {
+      display: inline-block;
+      background-color: #FFC400;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .botao:hover {
+      background-color: green;
+    }
+
+    /* Seção Sobre */
+    .sobre {
+      background: #ffe4ec;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .sobre h2 {
+      color: #ad1457;
+      margin-bottom: 15px;
+    }
+
+    .sobre p {
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    /* Rodapé */
+    footer {
+      background: #F5AD18;
+      color: #880e4f;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #880e4f;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Botão WhatsApp flutuante */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      z-index: 1000;
+      transition: transform 0.2s;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-float i {
+      margin-top: 15px;
+    }
