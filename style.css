@@ -54,23 +54,35 @@ body {
       text-align: center;
       padding: 10px;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+       width: 100%;
+      height: auto;
+      
+
+      }
 
     .card:hover {
       transform: scale(1.03);
       box-shadow: 0 6px 16px rgba(0,0,0,0.15);
     }
-
+     /* remove o pequeno espaço abaixo da imagem 
     .card img {
-     display: block; /* remove o pequeno espaço abaixo da imagem */
+     display: block; 
       margin: 0 auto;
       width: 55%;
       height: 200px;
-      object-fit: cover;  /* ajusta a imagem sem distorcer */
+      object-fit: cover;  
       border-radius: 10px;
       margin-bottom: 15px;
     }
-
+    */
+     .card img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 50%;
+       margin: 0 auto;
+      
+      height: auto;
+    }
     .card h3 {
       font-size: 1.3rem;
       color: #333;
@@ -140,3 +152,19 @@ body {
     .whatsapp-float i {
       margin-top: 15px;
     }
+      .carousel-item {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    @media (max-width: 768px) {
+      .carousel-item {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .carousel-item .card {
+  margin: 0 10px; /* espaço lateral entre os cards */
+}
