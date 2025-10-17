@@ -160,8 +160,8 @@ body {
       padding: 20px;
     }
     @media (max-width: 768px) {
-      .carousel-item {
-        flex-direction: column;
+      .carousel-item .row {
+        flex-direction: row;
         align-items: center;
       }
     }
