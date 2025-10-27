@@ -75,7 +75,7 @@ body {
       border-radius: 10px;
       margin-bottom: 15px;
     }
-   
+     */
      .card img {
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
@@ -84,7 +84,7 @@ body {
       
       height: auto;
     }
-       */
+     
     .card h3 {
       font-size: 1.3rem;
       color: #333;
@@ -157,14 +157,14 @@ body {
      .carousel-item {
   text-align: center;
 }
-
+/*
 .card img {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-/*
+
 .botao {
   display: inline-block;
   background-color: #FFC400;
