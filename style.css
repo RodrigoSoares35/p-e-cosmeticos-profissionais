@@ -74,7 +74,7 @@ body {
       border-radius: 10px;
       margin-bottom: 15px;
     }
-    */
+   
      .card img {
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
@@ -83,6 +83,7 @@ body {
       
       height: auto;
     }
+       */
     .card h3 {
       font-size: 1.3rem;
       color: #333;
@@ -152,19 +153,29 @@ body {
     .whatsapp-float i {
       margin-top: 15px;
     }
-      .carousel-item {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      padding: 20px;
-    }
-    @media (max-width: 768px) {
-      .carousel-item .row {
-        flex-direction: row;
-        align-items: center;
-      }
-    }
-    .carousel-item .card {
-  margin: 0 10px; /* espaço lateral entre os cards */
+     .carousel-item {
+  text-align: center;
 }
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*
+.botao {
+  display: inline-block;
+  background-color: #FFC400;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #ffdb4d;
+}
+  */
